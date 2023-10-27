@@ -51,7 +51,7 @@ Change Localhost with your db name
 ![image](https://github.com/ganny0219/setup-postgresql-ubuntu/assets/43429378/974fda18-a602-4905-a2df-5498e980dc4f)
 
 In the first window you only need to provide an identifiable name for the server. The connection details for that server are in the connection tab below:
-Change localhost with you domain name or ip address and username password with your user
+Change localhost with your ip address and username password with your user
 
 ![image](https://github.com/ganny0219/setup-postgresql-ubuntu/assets/43429378/68013b7b-80b8-44f4-a521-8a41c01dff0c)
 
