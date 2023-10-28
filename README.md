@@ -135,7 +135,7 @@ Within the same Steps tab there’s also a Code tab. If you selected Batch as we
 
 This tutorial will use the pg_dump command to back up your Postgres database sammy. In this command, include your specific username, the database name, and the --clean flag, which helps with pg_dump by dropping or “cleaning” the database objects before outputting any commands that are being created. For the --file flag you’re specifying the exact location where the backup files will be saved. The final part of this statement date +%Y-%m-%d-%H-%M-%S is to dynamically generate a date and multiple files for each backup. Otherwise, the backup file will constantly override and save over the existing one. This way, you can keep track of each one of your backup files for any specified time or date you scheduled. Your complete command will be as follows:
 
-pg_dump --username=sammy --dbname=sammy --clean --file=/home/sammy/backup-`date +%Y-%m-%d-%H-%M-%S`.sql
+pg_dump --username=sammy --dbname=sammy --clean --file=/var/lib/postgresql/db-name/backup-`date +%Y-%m-%d-%H-%M-%S`.sql
 
 ![image](https://github.com/ganny0219/setup-postgresql-ubuntu/assets/43429378/efa3f2fd-1ca5-4f79-a71d-68379f938814)
 
