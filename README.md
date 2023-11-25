@@ -103,7 +103,7 @@ Note: If these items do not show up for you right away, refresh your browser pag
 
  our connection string will provide the credentials of your hostname, database name, and username. In our example, the host will use a Unix domain socket, the database name is sammy, and the user is sammy. This string will be appended to a pgagent command to initiate the daemon. In your terminal, you’ll run the following code:
 
-cd sudo su postgres
+sudo su postgres
 
 pgagent host=/var/run/postgresql dbname=sammy user=sammy
 
