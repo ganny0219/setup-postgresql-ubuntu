@@ -104,7 +104,9 @@ Note: If these items do not show up for you right away, refresh your browser pag
  our connection string will provide the credentials of your hostname, database name, and username. In our example, the host will use a Unix domain socket, the database name is sammy, and the user is sammy. This string will be appended to a pgagent command to initiate the daemon. In your terminal, you’ll run the following code:
 
 cd sudo su postgres
+
 pgagent host=/var/run/postgresql dbname=sammy user=sammy
+
 If nothing returns in your output and you don’t receive a connection error message, then the connection string setup was successful.
 
 After you’ve created the connection string, you’re ready to schedule a job with pgAgent.
